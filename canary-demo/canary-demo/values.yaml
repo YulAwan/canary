@@ -14,19 +14,19 @@ ingress:
   enabled: true
   host: "canary-demo.local"
 
-canary:
-  enabled: true
-  replicaCount: 1
-  image:
-    tag: "v2"
+#canary:
+#  enabled: true
+#  replicaCount: 1
+#  image:
+#    tag: "v2"
 
-config:
-  main:
-    appColor: "white"
-    welcomeMessage: "Welcome to Upcommerce.com!"
-  canary:
-    appColor: "green"
-    welcomeMessage: "Welcome to Upcommerce.com Canary!"
+#config:
+#  main:
+#    appColor: "white"
+#    welcomeMessage: "Welcome to Upcommerce.com!"
+#  canary:
+#    appColor: "green"
+#    welcomeMessage: "Welcome to Upcommerce.com Canary!"
 
 canary:
   enabled: true
